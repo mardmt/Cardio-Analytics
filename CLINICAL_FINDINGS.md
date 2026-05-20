@@ -1,6 +1,6 @@
 # Clinical Findings & Medical Interpretation
 
-**Cardio-Analytics Project — Medical Informatics MSc Portfolio**
+**Cardio-Analytics Project — Medical Informatics Portfolio**
 
 This document interprets the data findings from a clinical perspective,
 explaining what the numbers mean for patient care, lab performance,
@@ -8,9 +8,9 @@ and cardiology practice.
 
 ---
 
-## 1. Procedure Volume Trends
+## Procedure Volume Trends
 
-**Finding:** The catheterisation laboratory performed a consistently high
+**Finding:** The laboratory performed a consistently high
 volume of procedures across 2022–2025, with seasonal dips in August
 and December.
 
@@ -19,12 +19,12 @@ during the summer holiday period. December dips reflect the same
 pattern around Christmas. This is expected and normal for any European
 hospital. The fact that emergency procedures (primary PCI for heart
 attacks) continued uninterrupted during these months confirms the lab
-maintained 24/7 emergency capacity — a core requirement for a certified
-cardiac centre.
+maintained 24/7 emergency capacity — a core requirement for one of the biggest
+hospitals in the country.
 
 ---
 
-## 2. Angioplasty Rate (~37% of angiograms)
+## Angioplasty Rate (~37% of angiograms)
 
 **Finding:** Approximately 37 out of every 100 patients who had a
 diagnostic coronary angiogram also underwent an immediate intervention
@@ -39,7 +39,7 @@ diagnostic pathway.
 
 ---
 
-## 3. Primary PCI Rate (~11% of interventions)
+## Primary PCI Rate (~11% of interventions)
 
 **Finding:** 11% of all interventional procedures were emergency primary
 PCI — performed on patients arriving with an acute ST-elevation
@@ -55,7 +55,7 @@ interventional cardiologists, and nursing staff.
 
 ---
 
-## 4. STEMI Mortality Rate (~2%)
+## STEMI Mortality Rate (~2%)
 
 **Finding:** Of patients undergoing primary PCI for STEMI, approximately
 2% did not survive.
@@ -70,7 +70,7 @@ many lives the lab saves — primary PCI reduces STEMI mortality from
 
 ---
 
-## 5. CTO Procedures
+## CTO Procedures
 
 **Finding:** A subset of angioplasty cases involved Chronic Total
 Occlusions — arteries that have been completely blocked for more
@@ -86,7 +86,7 @@ high-skill centre.
 
 ---
 
-## 6. Advanced Imaging Adoption (IVUS, OCT, FFR)
+## Advanced Imaging Adoption (IVUS, OCT, FFR)
 
 **Finding:** Use of intravascular imaging (IVUS, OCT) and functional
 assessment (FFR) increased year-on-year across the dataset.
@@ -107,7 +107,7 @@ practice — a marker of quality improvement over time.
 
 ---
 
-## 7. Patient Risk Profile
+## Patient Risk Profile
 
 **Finding:** Mean age 64, 68% male, 55% hypertensive, 35% diabetic,
 40% smokers, 20% with a prior heart attack.
@@ -124,7 +124,7 @@ repeat intervention.
 
 ---
 
-## 8. Elective Procedure Success Rate (>92%)
+## Elective Procedure Success Rate (>92%)
 
 **Finding:** Over 92% of elective interventions resulted in procedural
 success with no major complications.
@@ -144,7 +144,7 @@ acceptable and safe.
 
 ---
 
-## 9. Length of Stay (Mean ~3 days)
+## Length of Stay (Mean ~3 days)
 
 **Finding:** The average patient stayed approximately 3 days after
 their procedure.
@@ -160,7 +160,7 @@ post-procedure monitoring.
 
 ---
 
-## 10. TAVI and Structural Heart Disease
+## TAVI and Structural Heart Disease
 
 **Finding:** A small proportion of procedures were TAVI (transcatheter
 aortic valve implantation) and PFO closures.
@@ -182,11 +182,11 @@ centres in Greece.
 This dataset reflects a busy, well-performing cardiology
 catheterisation laboratory with:
 
-- High procedural volume and consistent emergency capacity
-- Angioplasty and complication rates within European benchmarks
-- Growing adoption of advanced imaging tools in line with current guidelines
-- A complex patient population with multiple cardiovascular risk factors
-- Advanced structural heart disease capabilities (TAVI, PFO, CTO)
+> High procedural volume and consistent emergency capacity
+> Angioplasty and complication rates within European benchmarks
+> Growing adoption of advanced imaging tools in line with current guidelines
+> A complex patient population with multiple cardiovascular risk factors
+> Advanced structural heart disease capabilities (TAVI, PFO, CTO)
 
 The data tells the story of a modern cath lab delivering evidence-based
 interventional cardiology to a high-risk population — and doing it well.
