@@ -183,10 +183,15 @@ This dataset reflects a busy, well-performing cardiology
 catheterisation laboratory with:
 
 \-  High procedural volume and consistent emergency capacity
+
 \-  Angioplasty and complication rates within European benchmarks
+
 \-  Growing adoption of advanced imaging tools in line with current guidelines
+
 \-  A complex patient population with multiple cardiovascular risk factors
+
 \-  Advanced structural heart disease capabilities (TAVI, PFO, CTO)
+
 
 The data tells the story of a modern cath lab delivering evidence-based
 interventional cardiology to a high-risk population — and doing it well.
