@@ -13,7 +13,7 @@ Built as a portfolio project for a Medical Informatics MSc, demonstrating end-to
 | Step | What happened |
 |---|---|
 | **1. Data completion** | The original hospital Excel file had empty rows for July–December 2025. A Python script learned the statistical patterns from 2024 and generated realistic synthetic data to fill those months — respecting weekends and Greek public holidays. |
-| **2. Patient dataset** | Sheet 3 was blank. We generated 3,000 synthetic patient records with clinically realistic distributions for age, gender, BMI, risk factors, diagnoses, procedures, and outcomes. |
+| **2. Patient dataset** | Sheet 3 was blank. I generated 3,000 synthetic patient records with clinically realistic distributions for age, gender, BMI, risk factors, diagnoses, procedures, and outcomes. |
 | **3. Visualisation** | 10 charts produced from both datasets covering procedure volumes, procedure type mix, advanced imaging tool adoption, patient demographics, risk factors, diagnoses, and clinical outcomes. |
 
 ---
