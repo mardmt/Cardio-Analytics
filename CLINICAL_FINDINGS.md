@@ -1,4 +1,4 @@
-# Clinical Findings & Medical Interpretation
+F# Clinical Findings & Medical Interpretation
 
 **Cardio-Analytics Project — Medical Informatics Portfolio**
 
@@ -48,7 +48,7 @@ myocardial infarction (STEMI, i.e. a full heart attack).
 **Clinical meaning:** Primary PCI is the gold-standard treatment for
 STEMI and must be performed within 90 minutes of patient arrival
 (door-to-balloon time). The volume seen here is consistent with the
-expected STEMI incidence for a regional Greek hospital serving a
+expected STEMI incidence for one of teh biggest hospitals -in teh country- serving a
 population of several hundred thousand people. Maintaining this
 capacity requires around-the-clock staffing of the cath lab,
 interventional cardiologists, and nursing staff.
@@ -181,7 +181,7 @@ seals a small hole between the heart's upper chambers, indicated
 in young stroke patients. The presence of both procedures confirms
 this is a full structural heart disease programme — not just a
 coronary lab — placing it among the more comprehensive cardiac
-centres in Greece.
+centres in .
 
 ---
 
