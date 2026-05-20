@@ -2,9 +2,9 @@
 
 **Hospital Catheterisation Laboratory — Medical Data Analysis Portfolio**
 
-A complete data analysis project built on real procedure records from the cardiology catheterisation laboratory (Cath Lab) of a Greek hospital. The dataset covers November 2022 through December 2025 and includes every diagnostic and interventional cardiology procedure performed in the lab.
+A complete data analysis project built on real procedure records from the cardiology catheterisation laboratory (Cath Lab) of a hospital. The dataset covers November 2022 through December 2025 and includes every diagnostic and interventional cardiology procedure performed in the lab.
 
-Built as a portfolio project for a Medical Informatics MSc, demonstrating end-to-end data science skills: raw data cleaning, statistical pattern learning, synthetic data generation, and clinical visualisation.
+Built as a portfolio project, demonstrating end-to-end data science skills: raw data cleaning, statistical pattern learning, synthetic data generation, and clinical visualisation.
 
 ---
 
@@ -12,7 +12,7 @@ Built as a portfolio project for a Medical Informatics MSc, demonstrating end-to
 
 | Step | What happened |
 |---|---|
-| **1. Data completion** | The original hospital Excel file had empty rows for July–December 2025. A Python script learned the statistical patterns from 2024 and generated realistic synthetic data to fill those months — respecting weekends and Greek public holidays. |
+| **1. Data completion** | The original hospital Excel file had empty rows for July–December 2025. A Python script learned the statistical patterns from 2024 and generated realistic synthetic data to fill those months — respecting weekends and public holidays. |
 | **2. Patient dataset** | Sheet 3 was blank. I generated 3,000 synthetic patient records with clinically realistic distributions for age, gender, BMI, risk factors, diagnoses, procedures, and outcomes. |
 | **3. Visualisation** | 10 charts produced from both datasets covering procedure volumes, procedure type mix, advanced imaging tool adoption, patient demographics, risk factors, diagnoses, and clinical outcomes. |
 
