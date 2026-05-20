@@ -92,13 +92,16 @@ high-skill centre.
 assessment (FFR) increased year-on-year across the dataset.
 
 **Clinical meaning:**
-- **IVUS** (intravascular ultrasound) allows the operator to see inside
+\- **IVUS** (intravascular ultrasound) allows the operator to see inside
   the artery wall in real time, optimising stent sizing and placement.
-- **OCT** (optical coherence tomography) provides even higher resolution
+  
+\- **OCT** (optical coherence tomography) provides even higher resolution
   images, particularly useful for complex stenting.
-- **FFR** (fractional flow reserve) measures whether a narrowing is
+  
+\- **FFR** (fractional flow reserve) measures whether a narrowing is
   actually causing reduced blood flow before deciding to stent it —
   preventing unnecessary interventions.
+  
 
 The 2023 ESC guidelines on acute coronary syndromes now recommend
 routine use of intracoronary imaging for complex PCI. The upward trend
@@ -132,11 +135,16 @@ success with no major complications.
 **Clinical meaning:** The accepted benchmark for elective PCI success
 in high-volume European centres is 90–95%. This lab sits within that
 range. The remaining 8% includes complications such as:
-- No-reflow (the artery reopens but blood flow does not restore)
-- Side branch occlusion
-- Stent thrombosis
-- Vascular access complications
-- Contrast-induced nephropathy (kidney injury from dye)
+\- No-reflow (the artery reopens but blood flow does not restore)
+
+\- Side branch occlusion
+
+\- Stent thrombosis
+
+\- Vascular access complications
+
+\- Contrast-induced nephropathy (kidney injury from dye)
+
 
 These are recognised risks disclosed to patients during informed
 consent. A complication rate below 10% for elective PCI is considered
