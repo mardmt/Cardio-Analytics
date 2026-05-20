@@ -15,7 +15,7 @@ volume of procedures across 2022–2025, with seasonal dips in August
 and December.
 
 **Clinical meaning:** August dips reflect reduced elective scheduling
-during the Greek summer holiday period. December dips reflect the same
+during the summer holiday period. December dips reflect the same
 pattern around Christmas. This is expected and normal for any European
 hospital. The fact that emergency procedures (primary PCI for heart
 attacks) continued uninterrupted during these months confirms the lab
@@ -115,8 +115,7 @@ practice — a marker of quality improvement over time.
 **Clinical meaning:** This is a classic high-risk cardiology population.
 The male predominance reflects the earlier onset of coronary artery
 disease in men (oestrogen is cardioprotective in premenopausal women).
-The high rates of hypertension and diabetes are consistent with
-Greek epidemiological data and the Mediterranean diet paradox —
+These are not surprising findings for this patient population but they matter —
 despite a traditionally heart-healthy diet, urbanisation and lifestyle
 changes have driven metabolic disease rates upward over the past
 two decades. The 20% prior MI rate indicates a significant proportion
@@ -180,7 +179,7 @@ centres in Greece.
 
 ## Summary
 
-This dataset reflects a busy, well-performing Greek cardiology
+This dataset reflects a busy, well-performing cardiology
 catheterisation laboratory with:
 
 - High procedural volume and consistent emergency capacity
