@@ -46,10 +46,15 @@ Built as a portfolio project, demonstrating end-to-end data science skills: raw 
 ## How to Run
 
 ```bash
-pip install pandas numpy matplotlib seaborn openpyxl
-python data/generate_data.py
-python notebooks/analysis.py
+Libraries:  pip install pandas numpy matplotlib seaborn openpyxl
+Run1: python data/generate_data.py
+Run2: python notebooks/analysis.py
+
+## 🔒 Security & Data Governance
+* **Secure Environment Configuration:** Utilizes decoupled environment variables (`.env`) managed via standard `.gitignore` rules to isolate sensitive infrastructure credentials, database access strings, and local configuration paths from the public source code.
+* **Production Integrity:** Implements clean repository constraints, explicitly blacklisting temporary application outputs, structural caches (`__pycache__/`), and notebook checkpoints (`.ipynb_checkpoints/`) to maintain an enterprise-ready, compliant repository layout.
+
 
 TECHNOLOGIES: Python · pandas · numpy · matplotlib · seaborn · Git · GitHub
 
-Context: Developed as part of a Medical Informatics MSc portfolio. All patient records are entirely synthetic. The procedure log is based on real aggregate hospital data, extended with statistically consistent synthetic data for the second half of 2025.
+Context: Developed as part of my Medical Informatics portfolio. All patient records are entirely synthetic. The procedure log is based on real aggregate hospital data, extended with statistically consistent synthetic data for the second half of 2025.
