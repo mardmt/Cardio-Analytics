@@ -11,18 +11,18 @@ An end-to-end data analysis of procedure records from a hospital catheterization
 
 | Step | What happened |
 |---|---|
-| **1. Data completion** | The original hospital Excel file had empty rows for July–December 2025. A Python script learned the statistical patterns from 2024 and generated realistic synthetic data to fill those months, respecting weekends and public holidays. |
-| **2. Patient dataset** | Sheet 3 was blank. I generated 3,000 synthetic patient records with clinically realistic distributions for age, gender, BMI, risk factors, diagnoses, procedures, and possible outcomes. |
+| **1. Data completion** | The original hospital Excel file had empty rows for July–December 2025. What I did was generate 6 months of missing procedure logs, using 2024 volume/day-of-week trends to account for seasonal and holiday variance. |
+| **2. Patient dataset** | SSimulated 3,000 patient records matching standard cardiology demographics (age, BMI, risk factors, procedure types, and outcomes). |
 | **3. Visualisation** | 10 charts produced from both datasets covering procedure volumes, procedure type mix, imaging tool adoption, patient demographics, risk factors, diagnoses, and clinical outcomes. |
 
 ---
 
 ## Key Findings
 
-- **Angioplasty rate:** ~37% of diagnostic angiograms led to an intervention
-- **STEMI emergency procedures:** ~11% of all interventions — mortality rate 2%, consistent with published literature
+- **Angioplasty rate:** ~37% of diagnostic angiograms led to intervention
+- **STEMI emergency procedures:** ~11% of all interventions —> mortality rate 2%, consistent with published literature
 - **Advanced imaging adoption:** IVUS and FFR use increased year-on-year, reflecting evolving clinical guidelines
-- **Patient profile:** Mean age 64, 68% male, 55% hypertensive, 35% diabetic — typical high-risk cardiology population
+- **Patient profile:** Mean age 64, 68% male, 55% hypertensive, 35% diabetic —> typical high-risk cardiology population
 - **Procedure success rate:** >92% for elective interventions, >89% for primary PCI (STEMI)
 
 ---
@@ -44,15 +44,22 @@ An end-to-end data analysis of procedure records from a hospital catheterization
 
 ## How to Run
 
+
 ```bash
-Libraries:  pip install pandas numpy matplotlib seaborn openpyxl
-Run1: python data/generate_data.py
-Run2: python notebooks/analysis.py
+pip install pandas numpy matplotlib seaborn openpyxl
 
-## 🔒 Security & Data Governance
-* **Secure Environment Configuration:** Utilizes decoupled environment variables (`.env`) managed via standard `.gitignore` rules to isolate sensitive infrastructure credentials, database access strings, and local configuration paths from the public source code.
-* **Production Integrity:** Implements clean repository constraints, explicitly blacklisting temporary application outputs, structural caches (`__pycache__/`), and notebook checkpoints (`.ipynb_checkpoints/`) to maintain an enterprise-ready, compliant repository layout.
+```bash
+# Generate synthetic dataset and fill missing logs
+python data/generate_data.py
 
+# Run analysis and save figures to /outputs
+python notebooks/analysis.py
+
+├── data/              # Raw data templates and generation scripts
+├── notebooks/         # Analysis scripts
+├── outputs/           # Generated charts and figures
+├── .gitignore         # Ignores local environment files and outputs
+└── README.md
 
 TECHNOLOGIES: Python · pandas · numpy · matplotlib · seaborn · Git · GitHub
 
