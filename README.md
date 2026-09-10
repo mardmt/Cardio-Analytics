@@ -1,11 +1,10 @@
 # Cardio-Analytics
 
-**Hospital Catheterisation Laboratory**
+**Hospital Catheterisation Lab Analysis**
 
-A complete data analysis project built on real procedure records from the cardiology catheterisation laboratory (Cath Lab) of a hospital. The dataset covers November 2022 through December 2025 and includes every diagnostic and interventional procedure performed in the lab.
+An end-to-end data analysis of procedure records from a hospital catheterization lab spanning November 2022 to December 2025.
 
-Built as a portfolio project, demonstrating end-to-end data science skills: raw data cleaning, statistical pattern, synthetic data generation, and clinical visualisation.
-
+    Data Note: To handle missing records (July–December 2025) and the blank patient details sheet in the original hospital export, I used statistical sampling from 2024 trends and published clinical baselines to generate a synthetic, fully anonymised dataset.
 ---
 
 ## What This Project Does
