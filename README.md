@@ -1,10 +1,10 @@
 # Cardio-Analytics
 
-**Hospital Catheterisation Laboratory — Medical Data Analysis Portfolio**
+**Hospital Catheterisation Laboratory**
 
-A complete data analysis project built on real procedure records from the cardiology catheterisation laboratory (Cath Lab) of a hospital. The dataset covers November 2022 through December 2025 and includes every diagnostic and interventional cardiology procedure performed in the lab.
+A complete data analysis project built on real procedure records from the cardiology catheterisation laboratory (Cath Lab) of a hospital. The dataset covers November 2022 through December 2025 and includes every diagnostic and interventional procedure performed in the lab.
 
-Built as a portfolio project, demonstrating end-to-end data science skills: raw data cleaning, statistical pattern learning, synthetic data generation, and clinical visualisation.
+Built as a portfolio project, demonstrating end-to-end data science skills: raw data cleaning, statistical pattern, synthetic data generation, and clinical visualisation.
 
 ---
 
@@ -12,9 +12,9 @@ Built as a portfolio project, demonstrating end-to-end data science skills: raw 
 
 | Step | What happened |
 |---|---|
-| **1. Data completion** | The original hospital Excel file had empty rows for July–December 2025. A Python script learned the statistical patterns from 2024 and generated realistic synthetic data to fill those months — respecting weekends and public holidays. |
-| **2. Patient dataset** | Sheet 3 was blank. I generated 3,000 synthetic patient records with clinically realistic distributions for age, gender, BMI, risk factors, diagnoses, procedures, and outcomes. |
-| **3. Visualisation** | 10 charts produced from both datasets covering procedure volumes, procedure type mix, advanced imaging tool adoption, patient demographics, risk factors, diagnoses, and clinical outcomes. |
+| **1. Data completion** | The original hospital Excel file had empty rows for July–December 2025. A Python script learned the statistical patterns from 2024 and generated realistic synthetic data to fill those months, respecting weekends and public holidays. |
+| **2. Patient dataset** | Sheet 3 was blank. I generated 3,000 synthetic patient records with clinically realistic distributions for age, gender, BMI, risk factors, diagnoses, procedures, and possible outcomes. |
+| **3. Visualisation** | 10 charts produced from both datasets covering procedure volumes, procedure type mix, imaging tool adoption, patient demographics, risk factors, diagnoses, and clinical outcomes. |
 
 ---
 
@@ -57,4 +57,4 @@ Run2: python notebooks/analysis.py
 
 TECHNOLOGIES: Python · pandas · numpy · matplotlib · seaborn · Git · GitHub
 
-Context: Developed as part of my Medical Informatics portfolio. All patient records are entirely synthetic. The procedure log is based on real aggregate hospital data, extended with statistically consistent synthetic data for the second half of 2025.
+Context: All patient records are entirely synthetic. The procedure log is based on real aggregate hospital data, extended with statistically consistent synthetic data for the second half of 2025.
